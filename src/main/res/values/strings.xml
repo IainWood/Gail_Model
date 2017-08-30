@@ -1,0 +1,424 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="gail">GAIL</string>
+    <string name="button2">button</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="question01">Does the woman have a medical history of any breast cancer or of ductal carcinoma in situ (DCIS) or lobular carcinoma in situ (LCIS) or has she received previous radiation therapy to the chest for treatment of Hodgkin lymphoma?</string>
+    <string name="question02">Does the woman have a mutation in either the BRCA1 or BRCA2 gene, or a diagnosis of a genetic syndrome that may be associated with elevated risk of breast cancer?</string>
+    <string name="question03">What is the woman\'s age? This tool only calculates risk for women 35 years of age or older.</string>
+    <string name="question04">What was the woman\'s age at the time of her first menstrual period?</string>
+    <string name="question05">What was the woman\'s age at the time of her first live birth of a child?</string>
+    <string name="question06">How many of the woman\'s first-degree relatives - mother, sisters, daughters - have had breast cancer?</string>
+    <string name="question07">Has the woman ever had a breast biopsy?</string>
+    <string name="question07a">How many breast biopsies (positive or negative) has the woman had?</string>
+    <string name="question07b">Has the woman had at least one breast biopsy with atypical hyperplasia?</string>
+    <string name="question08">What is the woman\'s race/ethnicity?</string>
+    <string name="question08a">What is the sub race/ethnicity?</string>
+    <string name="submit">Submit</string>
+    <string-array name="question02">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question04">
+        <item>Select</item>
+        <item>7 to 11</item>
+        <item>12 to 13</item>
+        <item>&gt;= 14</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question05">
+        <item>Select</item>
+        <item>No Births</item>
+        <item>&lt; 20</item>
+        <item>20 to 24</item>
+        <item>25 to 29</item>
+        <item>&gt;=30</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question06">
+        <item>Select</item>
+        <item>0</item>
+        <item>1</item>
+        <item>&gt;1</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question07">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question07a">
+        <item>Select</item>
+        <item>1</item>
+        <item>&gt;1</item>
+    </string-array>
+    <string-array name="question07b">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="question08">
+        <item>Select</item>
+        <item>White</item>
+        <item>African American</item>
+        <item>Hispanic</item>
+        <item>Asian-American</item>
+        <item>American Indian or Alaskan Native</item>
+    </string-array>
+    <string-array name="question08a">
+        <item>Select</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Filipino</item>
+        <item>Hawaiian</item>
+        <item>Other Pacific Islander</item>
+        <item>Other Asian American</item>
+    </string-array>
+    <string name="about_information">
+        Explaining the Questions\n\n
+
+Question 1:\n
+        Does the woman have a medical history of any breast\n
+        cancer or of ductal carcinoma in situ (DCIS) or \n
+        lobular carcinoma in situ (LCIS) or has she received\n
+        previous radiation therapy to the chest for treatment\n
+        of Hodgkin lymphoma?\n\n
+
+Explanation\n
+        The tool is not for use by women who have a diagnosis of\n
+        breast cancer. In addition, a medical history of ductal \n
+        carcinoma in situ (DCIS) or lobular carcinoma in situ \n
+        (LCIS) increases the risk of developing invasive breast \n
+        cancer. The method used by the Breast Cancer Risk \n
+        Assessment Tool to calculate the risk of invasive breast\n
+        cancer is not accurate for women with a history of DCIS \n
+        or LCIS. In addition, the tool cannot accurately predict\n
+        the risk of another breast cancer for women who have a \n
+        medical history of breast cancer.\n\n
+
+        Further, the tool is not appropriate for women who have \n
+        had previous radiation therapy to the chest for treatment\n
+        of Hodgkin lymphoma. There may be more appropriate tools \n
+        for these women.\n\n
+
+Question 2:\n
+        Does the woman have a mutation in either the BRCA1 or \n
+        BRCA2 gene, or a diagnosis of a genetic syndrome that \n
+        may be associated with elevated risk of breast cancer?\n\n
+
+Explanation\n
+        Although the tool has been used with success in clinics\n
+        for women with strong family histories of breast cancer,\n
+        more specific methods of estimating risk are appropriate\n
+        for women known to have breast cancer-producing \n
+        mutations in the BRCA1 or BRCA2 genes. Similarly, there \n
+        are several hereditary conditions, such as Li-Fraumeni \n
+        Syndrome, that increase a woman’s risk for breast cancer.\n
+        This tool will not appropriately estimate breast cancer \n
+        risk for such women. There may be more appropriate tools \n
+        for these women.\n\n
+
+Question 3:\n
+        What is the woman\'s age?\n\n
+
+Explanation\n
+        The risk of developing breast cancer increases with \n
+        age. The great majority of breast cancer cases occur \n
+        in women older than age 50. Most cancers develop \n
+        slowly over time. For this reason, breast cancer is \n
+        more common among older women.\n\n
+
+        Note: This tool only calculates risk for women 35 years of\n
+        age or older.\n\n
+
+Question 4:\n
+        What was the woman\'s age at time of her first menstrual \n
+        period?\n\n
+
+Explanation\n
+        Women who had their first menstrual period before age \n
+        12 have a slightly increased risk of breast cancer. \n
+        The levels of the female hormone estrogen change with \n
+        the menstrual cycle. Women who start menstruating at a\n
+        very young age have a slight increase in breast cancer\n
+        risk that may be linked to their longer lifetime \n
+        exposure to estrogen.\n\n
+
+Question 5:\n
+        What was the woman\'s age at her first live birth of \n
+        a child?\n\n
+
+Explanation\n
+        Risk depends on many factors, including age at first \n
+        live birth and family history of breast cancer. The \n
+        relationship of these two factors in white women is \n
+        shown in the following table of relative risks.\n\n
+
+        Relative Risk of Developing Breast Cancer*\n\n
+
+Question 6:\n
+        How many of the woman\'s first-degree relatives \n
+        - mother, sisters, daughters - have had breast \n
+        cancer?\n\n
+
+Explanation\n
+        Having one or more first-degree relatives \n
+        (mother, sisters, daughters) who have had \n
+        breast cancer increases a woman\'s chances\n
+        of developing this disease.\n\n
+
+Question 7:\n
+        Has the woman ever had a breast biopsy?\n
+        7a: How many previous breast biopsies \n
+        (positive or negative) has the woman had?\n
+        7b: Has the woman had at least one breast biopsy \n
+        with atypical hyperplasia?\n\n
+
+Explanation\n
+        Women who have had breast biopsies have an \n
+        increased risk of breast cancer, especially if \n
+        their biopsy specimens showed atypical hyperplasia. \n
+        Women who have a history of breast biopsies are \n
+        at increased risk because of whatever breast changes\n
+        prompted the biopsies. Breast biopsies themselves \n
+        do not cause cancer.\n\n
+
+Question 8:\n
+        If known, please indicate the woman\'s \n
+        race/ethnicity.\n\n
+
+Explanation\n
+        The original Breast Cancer Risk Assessment Tool \n
+        was based on data from white women. But \n
+        race/ethnicity can influence the calculation of \n
+        breast cancer risk. Over the years, as additional \n
+        data became available, researchers at the NCI \n
+        updated the tool to more accurately estimate risk \n
+        for African American, and Asian and Pacific \n
+        Islander women. (see references 5 and 6). For \n
+        Hispanic women, part of the model is derived from \n
+        white women who participated in the Breast Cancer \n
+        Detection Demonstration Project and from SEER data. \n
+        The risk estimates for Hispanic women are \n
+        therefore subject to greater uncertainty than those \n
+        for white women. Calculations for American Indian \n
+        and Alaskan Native women are based entirely on data \n
+        for white women and may not be accurate. Recent \n
+        immigrants from rural China and certain other parts \n
+        of Asia probably have lower risk than predicted by \n
+        the model. Researchers are conducting additional \n
+        studies, including studies with minority populations, \n
+        to gather more data and to increase the accuracy of \n
+        the tool.\n\n
+
+        Note: If the woman\'s race/ethnicity is unknown, \n
+        the tool will use data for white females to \n
+        estimate the predicted risk.\n\n
+
+Question 8a:\n
+        What is the sub race/ethnicity?\n\n
+
+Explanation\n
+        To calculate breast cancer risk using Asian-American \n
+        as the race/ethnicity, the sub race/ethnicity needs \n
+        to be known. If the sub-category of race/ethnicity \n
+        is not known, then “Unknown” should be selected in \n
+        Question 8, rather than Asian-American. The “Other \n
+        Asian American” category includes women of Asian \n
+        Indian/Pakistani, Korean, Vietnamese, Laotian, and \n
+        Kampuchean descent. The “Other Pacific Islander” \n
+        category includes women of Guamanian, Samoan, and \n
+        Tongan descent.\n\n
+
+
+Explaining the Results
+        The Breast Cancer Risk Assessment Tool will estimate \n
+        a woman\'s risk of developing invasive breast cancer \n
+        during the next 5-year period and up to age 90 \n
+        (lifetime risk) based on the woman\'s age and the \n
+        risk factor information provided. For comparison, the \n
+        tool will then calculate 5-year and lifetime risk \n
+        estimates for a woman of the same age who is at \n
+        average risk for developing breast cancer. Lifetime \n
+        risk estimates are higher than 5-year age interval \n
+        estimates because breast cancer risk increases with \n
+        years at risk.\n\n
+
+        Risk estimates calculated by the tool are estimates \n
+        of absolute breast cancer risk. Absolute breast \n
+        cancer risk is the chance or probability of \n
+        developing invasive breast cancer in a defined age \n
+        interval. One way to evaluate the accuracy of the \n
+        risk estimate is to determine whether it correctly \n
+        predicts average risk in a group of women with the \n
+        same risk factors and age. The Breast Cancer Risk \n
+        Assessment Tool does predict such average risks well.\n\n
+
+        Although a woman\'s risk may be accurately estimated, \n
+        these predictions do not allow one to say precisely \n
+        which woman will develop breast cancer. In fact, \n
+        some women who do not develop breast cancer have \n
+        higher risk estimates than some women who do develop \n
+        breast cancer.\n\n
+
+        The Breast Cancer Risk Assessment Tool may be \n
+        updated periodically as new data or research \n
+        becomes available.\n\n
+
+
+
+About the Gail Model\n
+        The Breast Cancer Risk Assessment Tool is based \n
+        on a statistical model known as the "Gail model,"\n
+        which is named after Dr. Mitchell Gail, Senior \n
+        Investigator in the Biostatistics Branch of NCI\'s \n
+        Division of Cancer Epidemiology and Genetics. \n
+        The model uses a woman\'s own personal medical \n
+        history, her own reproductive history, and the \n
+        history of breast cancer among her first-degree \n
+        relatives (mother, sisters, daughters) to estimate \n
+        her risk of developing invasive breast cancer \n
+        over specific periods of time. Data from the \n
+        Breast Cancer Detection Demonstration Project \n
+        (BCDDP), which was a joint NCI and American \n
+        Cancer Society breast cancer screening study that \n
+        involved 280,000 women aged 35 to 74 years, and \n
+        from NCI\'s Surveillance, Epidemiology, and End \n
+        Results (SEER) Program were used in developing the \n
+        model. Estimates for African American women were \n
+        based on data from the Women’s Contraceptive and \n
+        Reproductive Experiences (CARE) Study and from \n
+        SEER data. CARE participants included 1,607 women \n
+        with invasive breast cancer and 1,637 without. \n
+        Estimates for Asian and Pacific Islander women \n
+        in the United States were based on data from the \n
+        Asian American Breast Cancer Study (AABCS) and \n
+        SEER data. AABCS participants included 597 Asian \n
+        and Pacific Islander women with invasive breast \n
+        cancer, and 966 women without breast cancer.\n\n
+
+        The Gail model has been tested in large \n
+        populations of white women and has been shown \n
+        to provide accurate estimates of breast cancer \n
+        risk. In other words, the model has been \n
+        "validated" for white women. It has also been \n
+        tested in data from the Women’s Health \n
+        Initiative for African American women, and the \n
+        model performs well, but may underestimate risk \n
+        in African American women with previous biopsies. \n
+        The model has been validated for Asian and \n
+        Pacific Islander women in the WHI and data from \n
+        SEER. The model needs further validation for \n
+        Hispanic women and other subgroups. Researchers \n
+        are conducting additional studies, including \n
+        studies with minority populations, to gather more \n
+        data and to test and improve the model.\n\n
+
+        Other risk assessment tools are more appropriate \n
+        for women who have a history of certain medical \n
+        conditions. Below is a list of alternative \n
+        resources for women with a medical history of:\n\n
+
+        Breast cancer or lobular carcinoma in situ \n
+        (LCIS) or ductal carcinoma in situ (DCIS).\n\n
+
+        Women with a history of breast cancer have risks \n
+        of recurrence that depend on the type of breast \n
+        cancer, its stage at diagnosis, and treatment. A \n
+        cancer doctor can provide guidance on future risks \n
+        for breast cancer survivors.\n\n
+
+        Women with a history of DCIS have risk of invasive \n
+        breast cancer that depend on type of treatment for \n
+        DCIS; a cancer doctor can provide information on \n
+        this risk.\n\n
+
+        Women with a history of LCIS can use the IBIS \n
+        Breast Cancer Risk Evaluation Tool to estimate \n
+        the risk of invasive breast cancer or DCIS.\n\n
+
+        Treatment with radiation to the chest for \n
+        Hodgkin lymphoma\n\n
+
+        Women who had radiation to the chest for the \n
+        treatment of Hodgkin lymphoma have higher than \n
+        average risk of breast cancer. These risks are \n
+        discussed in the scientific manuscript Travis, \n
+        L.B et al. (Journal of the National Cancer \n
+        Institute 2005; 97:1428-37). [PubMed Abstract].\n\n
+
+        A known mutation in either the BRCA1 or \n
+        BRCA2 gene\n\n
+
+        Women with a known mutation in either the \n
+        BRCA1 or BRCA2 gene can use the BOADICEA \n
+        model to estimate their breast cancer risk.\n\n
+
+        Other rare cancer-causing syndromes, such \n
+        as the Li-Fraumeni syndrome\n\n
+
+        Women with a known or suspected inherited \n
+        cancer-causing syndrome should consult a \n
+        specialist in medical genetics.\n\n
+
+        The Breast Cancer Risk Assessment Tool \n
+        may be updated periodically as new data \n
+        or research becomes available. \n
+        The algorithm was last updated in 2011.\n\n
+
+References
+        Gail MH, Brinton LA, Byar DP, Corle DK, \n
+        Green SB, Shairer C, Mulvihill JJ: \n
+        Projecting individualized probabilities \n
+        of developing breast cancer for white \n
+        females who are being examined annually. \n
+        J Natl Cancer Inst 81(24):1879-86, 1989. \n
+        [PubMed Abstract]\n\n
+
+
+        Costantino JP, Gail MH, Pee D, Anderson S, \n
+        Redmond CK, Benichou J, Wieand HS: \n
+        Validation studies for models projecting the \n
+        risk of invasive and total breast cancer \n
+        incidence. J Natl Cancer Inst 91(18):1541-8, \n
+        1999. [PubMed Abstract]\n\n
+
+
+        Gail MH, Costantino JP, Bryant J, Croyle R, \n
+        Freedman L, Helzlsouer K, Vogel V: Weighing \n
+        the risks and benefits of tamoxifen treatment \n
+        for preventing breast cancer. J Natl Cancer \n
+        Inst 91(21):1829-46, 1999. [PubMed Abstract]\n\n
+
+
+        Rockhill B, Spiegelman D, Byrne C, Hunter DJ, \n
+        Colditz GA: Validation of the Gail et al. \n
+        model of breast cancer risk prediction and \n
+        implications for chemoprevention. J Natl Cancer \n
+        Inst 93(5):358-66, 2001. [PubMed Abstract]\n\n
+
+
+        Gail MH, Costantino JP, Pee D, Bondy M, \n
+        Newman L, Selvan M, Anderson GL, Malone KE, \n
+        Marchbanks PA, McCaskill-Stevens W, Norman SA, \n
+        Simon MS, Spirtas R, Ursin G, and Bernstein L. \n
+        Projecting Individualized Absolute Invasive \n
+        Breast Cancer Risk in African American Women. \n
+        J Natl Cancer Inst 99(23):1782-1792, 2007. \n
+        [PubMed Abstract]\n\n
+
+
+        Matsuno RK, Costantino JP, Ziegler RG, \n
+        Anderson GL, Li H, Pee D, Gail MH. Projecting \n
+        Individualized Absolute Invasive Breast \n
+        Cancer Risk in Asian and Pacific Island \n
+        American Women. J Natl Cancer Inst 2011. \n
+        [PubMed Abstract]\n\n
+    </string>
+    <string name="about">About</string>
+</resources>
