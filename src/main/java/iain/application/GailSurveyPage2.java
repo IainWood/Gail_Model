@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class GailSurveyPage2 extends AppCompatActivity {
@@ -15,6 +17,24 @@ public class GailSurveyPage2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gail_survey_page2);
+
+        Spinner q07_spinner = (Spinner) findViewById(R.id.q07_spinner);
+        q07_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id)
+            {
+                String selectedItem = parent.getItemAtPosition(position).toString();
+                if(selectedItem.equals("Yes")){
+                    //true indicates making the questions visible
+                    showBiopsyQuestions(true);
+                } else {
+                    showBiopsyQuestions(false);
+                }
+            }
+            public void onNothingSelected(AdapterView<?> parent)
+            {
+                //Do nothing if it is not selected yet
+            }
+        });
     }
 
     public void gotoPage1(View view){
@@ -33,13 +53,31 @@ public class GailSurveyPage2 extends AppCompatActivity {
             Toast.makeText(this, errMessage, Toast.LENGTH_LONG).show();
         }
 
-
     }
 
-    //TODO
-    /*public void showBiopsyQuestions(){
+    /**
+     *  Switches the biopsy follow-up questions to visible or invisible
+     *  These are dependent on the choice of question 7, by default invisible
+     *  @param visible Determines if the questions should be shown or hidden
+     */
+    public void showBiopsyQuestions(boolean visible){
+        Spinner q07a_spinner = (Spinner) findViewById(R.id.q07a_spinner);
+        Spinner q07b_spinner = (Spinner) findViewById(R.id.q07b_spinner);
+        TextView q07a_textview = (TextView) findViewById(R.id.textView8);
+        TextView q07b_textview = (TextView) findViewById(R.id.textView9);
 
-    }*/
+        if(visible){
+            q07a_spinner.setVisibility(View.VISIBLE);
+            q07b_spinner.setVisibility(View.VISIBLE);
+            q07a_textview.setVisibility(View.VISIBLE);
+            q07b_textview.setVisibility(View.VISIBLE);
+        } else {
+            q07a_spinner.setVisibility(View.INVISIBLE);
+            q07b_spinner.setVisibility(View.INVISIBLE);
+            q07a_textview.setVisibility(View.INVISIBLE);
+            q07b_textview.setVisibility(View.INVISIBLE);
+        }
+    }
 
     /**
      * [[---    PAGE 2  ---]]

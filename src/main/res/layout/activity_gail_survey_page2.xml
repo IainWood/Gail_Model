@@ -83,12 +83,12 @@
         android:id="@+id/q07_spinner"
         android:layout_width="108dp"
         android:layout_height="37dp"
-        android:entries="@array/question07"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="31dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:entries="@array/question07"
         app:layout_constraintBottom_toTopOf="@+id/q07a_spinner"
-        android:layout_marginRight="16dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
